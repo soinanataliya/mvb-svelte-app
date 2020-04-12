@@ -15,7 +15,7 @@
 		<div>
 			<Route path="accessories" component="{Accessories}" />
 			<Route path="contacts" component="{Contacts}" />
-			<Route path="/" component="{Home}" />
+			<Route path="/" component="{Accessories}" />
 			<Route component={NotFound} />
 		</div>
 	</Router>

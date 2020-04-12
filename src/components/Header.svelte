@@ -25,19 +25,19 @@
         <div class="logotext__sublogo">accesories</div>
       </div>
     </Link>
-    <div class="header__contacts contacts">
-      <a href="tel:123-456-7890" class="contacts__icon-link">
+    <div class="header__contacts header-contacts">
+      <a href="tel:123-456-7890" class="header-contacts__icon-link">
         <span>123-456-7890</span>
-        <i class="contacts__icon-header">
+        <i class="header-contacts__icon-header">
           {@html PhoneIcon}
         </i>
       </a>
       <a
         href="https://www.instagram.com/mvb_accessories/"
-        class="contacts__icon-link"
+        class="header-contacts__icon-link"
         target="_blank">
         <span>Instagram</span>
-        <i class="contacts__icon-header">
+        <i class="header-contacts__icon-header">
           {@html InstagramIcon}
         </i>
       </a>
@@ -116,7 +116,7 @@
     }
     }
   }
-  .contacts {
+  .header-contacts {
     position: absolute;
     right: 0;
     top: 50%;

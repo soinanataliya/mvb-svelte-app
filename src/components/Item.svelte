@@ -4,7 +4,7 @@ export let src;
 </script>
 
 <div class="item">
-  <img src={src} class="item__img" alt='товар' />
+  <img src={src} class="item__img" alt='украшения ободки handmade' />
   <div class="item__text good-description">
     <span class="good-description__description">
       Paper & Clay: Svlume Vase
