@@ -51,6 +51,9 @@
       <span class="header__link">Контакты</span>
     </NavLink>
   </nav>
+  <div class="header__subtitle">
+		Аксессуары ручной работы из Армении
+		</div>
 </header>
 
 
@@ -91,6 +94,18 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+      @media (max-width: 1024px) {
+         padding-top: 14px;
+      }
+    }
+    &__subtitle {
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      padding-left: 15px;
+      @media (max-width: 1024px) {
+         justify-content: left;
+      }
     }
   }
 

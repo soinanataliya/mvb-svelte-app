@@ -1,6 +1,7 @@
 <script>
 	import { Router, Route, Link } from "svelte-routing";
 	import Header from './components/Header.svelte';
+	import Footer from './components/Footer.svelte';
 	import Home from './pages/Home.svelte';
 	import Accessories from './pages/Accessories.svelte';
 	import Contacts from './pages/Contacts.svelte';
@@ -9,7 +10,15 @@
 	export let url = "";
 </script>
 
-<main>
+<style lang="scss">
+  .app {
+    display: flex;
+		flex-direction: column;
+		min-height: 100%;
+  }
+</style>
+
+<main class="app">
 	<Router url="{url}">
 		<Header />
 		<div>
@@ -19,8 +28,5 @@
 			<Route component={NotFound} />
 		</div>
 	</Router>
+	<Footer />
 </main>
-
-<style>
-	
-</style>
