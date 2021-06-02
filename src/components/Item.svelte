@@ -1,17 +1,18 @@
 <script>
 export let src;
- 
+export let name;
+export let price;
 </script>
 
 <div class="item">
   <img src={src} class="item__img" alt='украшения ободки handmade' />
   <div class="item__text good-description">
     <span class="good-description__description">
-      Paper & Clay: Svlume Vase
+      {name || 'Название не указано'}
     </span>
     <br />
     <span class="good-description__price">
-      100P
+      {price || 'Цена не указана'}
     </span>
   </div>
 </div>
@@ -20,11 +21,11 @@ export let src;
 .item {
   box-sizing: border-box;
   width: 100%;
-  max-width: 33%;
+  max-width: 33.3333%;
   padding: 15px;
   &__img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 20px;
   }
   @media (max-width: 900px) {
     max-width: 50%;

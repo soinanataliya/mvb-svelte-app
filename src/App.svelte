@@ -15,18 +15,18 @@
     display: flex;
 		flex-direction: column;
 		min-height: 100%;
+		align-items: center;
+		overflow-x: hidden;
   }
 </style>
 
 <main class="app">
 	<Router url="{url}">
 		<Header />
-		<div>
 			<Route path="accessories" component="{Accessories}" />
 			<Route path="contacts" component="{Contacts}" />
 			<Route path="/" component="{Accessories}" />
 			<Route component={NotFound} />
-		</div>
 	</Router>
 	<Footer />
 </main>

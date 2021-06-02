@@ -18,14 +18,29 @@
 </script>
 
 <header class="header">
-  <div class="header__logo">
+<div class='header__left'>
+  <div>
     <Link to="/">
-      <div class="logotext">
-        <div class="logotext__logo">MVB</div>
-        <div class="logotext__sublogo">accesories</div>
-      </div>
+          <div class="logotext">
+            <div class="logotext__logo">MVB</div>
+            <div class="logotext__sublogo">accessories</div>
+          </div>
     </Link>
-    <div class="header__contacts header-contacts">
+  </div>
+
+  <div class="header__subtitle">Аксессуары ручной работы из Армении</div> 
+
+   <nav class="header__nav">
+      <NavLink to="accessories">
+        <span class="header__link button">Украшения</span>
+      </NavLink>
+      <NavLink to="contacts">
+        <span class="header__link button">Контакты</span>
+      </NavLink>
+    </nav>
+
+
+  <div class="header__contacts header-contacts">
       <a href="tel:123-456-7890" class="header-contacts__icon-link">
         <span>123-456-7890</span>
         <i class="header-contacts__icon-header">
@@ -42,70 +57,63 @@
         </i>
       </a>
     </div>
-  </div>
-  <nav class="header__nav">
-    <NavLink to="accessories">
-      <span class="header__link">Украшения</span>
-    </NavLink>
-    <NavLink to="contacts">
-      <span class="header__link">Контакты</span>
-    </NavLink>
-  </nav>
-  <div class="header__subtitle">
-		Аксессуары ручной работы из Армении
-		</div>
-</header>
 
+</div>
+
+<img
+    height="360px"
+    src="images/logo.png"
+    class="item__img header__right"
+    alt="украшения ободки handmade"
+/>
+
+
+  
+</header>
 
 <style lang="scss">
   .header {
-    position: relative;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px 0 20px;
     font-size: 1.2rem;
-    border-bottom: 1px #d3c9c452 solid;
-    &__logo {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      position: relative;
-      @media (max-width: 1024px) {
+    background: #fbedea; 
+    @media (max-width: 900px) {
       flex-direction: column;
-      align-items: flex-start;
-      }
-    }
-    &__home {
-      height: 100%;
-    }
-    &__nav {
-      flex-grow: 1;
-      text-align: center;
-      padding: 30px 0 15px;
+      align-items: center;
     }
 
+    &__nav {
+      padding: 40px 0 0;
+        @media (max-width: 400px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+
     &__link {
+      display: inline-block;
       padding: 0 15px;
       transition: color 0.2s;
       text-transform: uppercase;
-      &:hover {
-        color: #c47179;
-      } 
+      // margin-right: 12px;
     }
     &__contacts {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      @media (max-width: 1024px) {
-         padding-top: 14px;
-      }
+      margin-top: 40px;
     }
     &__subtitle {
-      display: flex;
-      justify-content: center;
       padding-top: 15px;
-      padding-left: 15px;
-      @media (max-width: 1024px) {
-         justify-content: left;
-      }
+    }
+    &__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 
@@ -115,40 +123,49 @@
     font-size: 4rem;
     opacity: 0.9;
     transition: opacity 0.2s;
+    @media (max-width: 400px) {
+        font-size: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
     &__logo {
       background-color: #c47179;
-      border-radius: 4px;
+      border-radius: 20px;
       color: #ffff;
       padding: 10px 20px;
+      max-width: 116px;
+      text-align: center;
     }
     &__sublogo {
       display: flex;
       align-items: center;
-      color: #d3c9c4;
+      color: #924642;
       padding: 10px;
       @media (max-width: 500px) {
         font-size: 3rem;
-    }
+      }
     }
   }
   .header-contacts {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    // position: absolute;
+    // right: 0;
+    // top: 50%;
+    // transform: translateY(-50%);
     @media (max-width: 1024px) {
-      position: relative;
-      top: 0;
-      transform: translate(0);
-      display: flex;
-      flex-direction: row;
+      // position: relative;
+      // top: 0;
+      // transform: translate(0);
+      // display: flex;
+      // flex-direction: row;
     }
     &__icon-header {
       display: inline-block;
       width: 28px;
       height: 28px;
       cursor: pointer;
-      padding-left: 20px;
+      padding-left: 8px;
       opacity: 1;
       transition: opacity 0.2s;
       &:hover {
@@ -170,6 +187,19 @@
       @media (max-width: 1024px) {
         padding-right: 20px;
       }
+    }
+  }
+
+  .button {
+    background: #f5b6b0;
+    border-radius: 20px;
+    padding: 12px 16px;
+    color: #fbedea;
+    min-width: 150px;
+    text-align: center;
+    @media (max-width: 400px) {
+       width: 90%;
+       margin-bottom: 12px;
     }
   }
 </style>
