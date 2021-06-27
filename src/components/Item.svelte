@@ -12,7 +12,7 @@ export let price;
     </span>
     <br />
     <span class="good-description__price">
-      {price || 'Цена не указана'}
+      {(price && `${price} драм`) || 'Цена не указана'}
     </span>
   </div>
 </div>

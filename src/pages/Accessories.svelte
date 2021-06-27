@@ -3,186 +3,191 @@
 
   const allAccessories = [
     {
-      id: '030',
-      src: "images/items/30.jpg",
+      id: "036",
+      src: "images/items/036.jpg",
       category: [],
-      prize: '100',
-      name: 'Paper & Clay: Svlume Vase1111',
+      price: "6 000",
+      name: "Бархатный обрус ручной работы с классической вышевкой",
     },
     {
-      id: '029',
-      src: "images/items/29.jpg",
+      id: "035",
+      src: "images/items/035.jpg",
       category: [],
-      prize: '100',
+      price: "6 000",
+      name: "Бархатный обрус ручной работы с классической вышевкой",
     },
     {
-      id: '028',
-      src: "images/items/28.jpg",
+      id: "034",
+      src: "images/items/034.jpg",
       category: [],
-      prize: '100',
     },
     {
-      id: '027',
-      src: "images/items/27.jpg",
+      id: "033",
+      src: "images/items/033.jpg",
       category: [],
-      prize: '100',
     },
     {
-      id: '026',
-      src: "images/items/26.jpg",
+      id: "032",
+      src: "images/items/032.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '025',
-      src: "images/items/25.jpg",
+    {
+      id: "031",
+      src: "images/items/031.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '024',
-      src: "images/items/24.jpg",
+    {
+      id: "030",
+      src: "images/items/030.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '023',
-      src: "images/items/23.jpg",
+    {
+      id: "029",
+      src: "images/items/029.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '022',
-      src: "images/items/22.jpg",
+    {
+      id: "028",
+      src: "images/items/028.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '021',
-      src: "images/items/21.jpg",
+    {
+      id: "027",
+      src: "images/items/027.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '020',
-      src: "images/items/20.jpg",
+    {
+      id: "026",
+      src: "images/items/026.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '019',
-      src: "images/items/19.jpg",
+    {
+      id: "025",
+      src: "images/items/025.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '018',
-      src: "images/items/18.jpg",
+    {
+      id: "024",
+      src: "images/items/024.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '017',
-      src: "images/items/17.jpg",
+    {
+      id: "023",
+      src: "images/items/023.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '016',
-      src: "images/items/16.jpg",
+    {
+      id: "022",
+      src: "images/items/022.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '015',
-      src: "images/items/15.jpg",
+    {
+      id: "021",
+      src: "images/items/021.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '014',
-      src: "images/items/14.jpg",
+    {
+      id: "020",
+      src: "images/items/020.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '013',
-      src: "images/items/13.jpg",
+    {
+      id: "019",
+      src: "images/items/019.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '012',
-      src: "images/items/12.jpg",
+    {
+      id: "018",
+      src: "images/items/018.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '011',
-      src: "images/items/11.jpg",
+    {
+      id: "017",
+      src: "images/items/017.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '010',
-      src: "images/items/10.jpg",
+    {
+      id: "016",
+      src: "images/items/016.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '009',
-      src: "images/items/09.jpg",
+    {
+      id: "015",
+      src: "images/items/015.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '008',
-      src: "images/items/08.jpg",
+    {
+      id: "014",
+      src: "images/items/014.jpg",
       category: [],
-      prize: '100',
+      name: "Бархатный обрус ручной работы с классической вышевкой",
     },
-      {
-      id: '007',
-      src: "images/items/07.jpg",
+    {
+      id: "013",
+      src: "images/items/013.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '006',
-      src: "images/items/06.jpg",
+    {
+      id: "012",
+      src: "images/items/012.jpg",
       category: [],
-      prize: '100',
+      name: "Бархатный обрус ручной работы с классической вышевкой",
     },
-      {
-      id: '005',
-      src: "images/items/05.jpg",
+    {
+      id: "011",
+      src: "images/items/011.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '004',
-      src: "images/items/04.jpg",
+    {
+      id: "010",
+      src: "images/items/010.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '003',
-      src: "images/items/03.jpg",
+    {
+      id: "009",
+      src: "images/items/009.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '002',
-      src: "images/items/02.jpg",
+    {
+      id: "008",
+      src: "images/items/008.jpg",
       category: [],
-      prize: '100',
     },
-      {
-      id: '001',
-      src: "images/items/01.jpg",
+    {
+      id: "007",
+      src: "images/items/007.jpg",
       category: [],
-      prize: '100',
     },
+    {
+      id: "006",
+      src: "images/items/006.jpg",
+      category: [],
+    },
+    {
+      id: "005",
+      src: "images/items/005.jpg",
+      category: [],
+    },
+    {
+      id: "004",
+      src: "images/items/004.jpg",
+      category: [],
+    },
+    {
+      id: "003",
+      src: "images/items/003.jpg",
+      category: [],
+    },
+    {
+      id: "002",
+      src: "images/items/002.jpg",
+      category: [],
+    },
+    {
+      id: "001",
+      src: "images/items/001.jpg",
+      category: [],
+    }
   ];
 </script>
 
@@ -197,7 +202,7 @@
 </style>
 
 <div class="accessories">
-{#each allAccessories as item, i}
- <Item src={item.src} name={item.name} />
-{/each}
+  {#each allAccessories as item, i}
+    <Item src={item.src} name={item.name} price={item.price} />
+  {/each}
 </div>

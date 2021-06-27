@@ -41,12 +41,12 @@
 
 
   <div class="header__contacts header-contacts">
-      <a href="tel:123-456-7890" class="header-contacts__icon-link">
+      <!-- <a href="tel:123-456-7890" class="header-contacts__icon-link">
         <span>123-456-7890</span>
         <i class="header-contacts__icon-header">
           {@html PhoneIcon}
         </i>
-      </a>
+      </a> -->
       <a
         href="https://www.instagram.com/mvb_accessories/"
         class="header-contacts__icon-link"
