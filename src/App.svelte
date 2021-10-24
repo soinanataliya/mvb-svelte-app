@@ -6,6 +6,7 @@
 	import Accessories from './pages/Accessories.svelte';
 	import Contacts from './pages/Contacts.svelte';
 	import NotFound from './pages/NotFound.svelte';
+	import Login from './pages/Login.svelte';
 
 	export let url = "";
 </script>
@@ -23,9 +24,10 @@
 <main class="app">
 	<Router url="{url}">
 		<Header />
-			<Route path="accessories" component="{Accessories}" />
-			<Route path="contacts" component="{Contacts}" />
-			<Route path="/" component="{Accessories}" />
+			<Route path="accessories"><Accessories /></Route>
+			<Route path="contacts"><Contacts /></Route>
+			<Route path="/" ><Accessories /></Route>
+			<Route path="/login" ><Contacts /></Route>
 			<Route component={NotFound} />
 	</Router>
 	<Footer />
